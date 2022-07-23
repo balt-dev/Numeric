@@ -3,27 +3,26 @@
   "id": "modid",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Numeric",
+  "description": "Makes cooldowns and bars numeric.",
   "authors": [
-    "Me!"
+    "&7@balt#6423&r"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/balt-is-you-and-shift/Numeric"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/numeric/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.numeric.NumericMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "numeric.mixins.json"
   ],
 
   "depends": {
